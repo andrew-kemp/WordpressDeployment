@@ -52,23 +52,16 @@ chmod +x wp-deploy.sh
 sudo ./wp-deploy.sh
 ```
 
-### Method 2: One-Line Install
+### Method 2: One-Line Install (wget)
 
 ```bash
-sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/andrew-kemp/WordpressDeployment/main/wp-deploy.sh)"
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/andrew-kemp/WordpressDeployment/main/install.sh)"
 ```
 
-### Method 3: Using curl
+### Method 3: One-Line Install (curl)
 
 ```bash
-# Download the script
-curl -fsSL https://raw.githubusercontent.com/andrew-kemp/WordpressDeployment/main/wp-deploy.sh -o wp-deploy.sh
-
-# Make it executable
-chmod +x wp-deploy.sh
-
-# Run with sudo
-sudo ./wp-deploy.sh
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/andrew-kemp/WordpressDeployment/main/install.sh)"
 ```
 
 ## 📖 Usage Guide
